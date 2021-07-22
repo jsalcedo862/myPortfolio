@@ -46,6 +46,7 @@ h3{
     display:block;
     margin-left: 30%;
     margin-top: 20px;
+    display: flex;
 }
 
 #quote {
