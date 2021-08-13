@@ -6,44 +6,56 @@ body{
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
-    background: #2159f3;;
+    background: #1E96FC;
 }
 
 h1 {
     color: antiquewhite;
-    font-weight: 300;
+    /* font-weight: 300; */
     text-align: center;
 }
 
 h2 {
-    color: antiquewhite;
+    /* color: #F6F4F3; */
     font-weight: 200;
     text-align: center;  
-    margin-right: 30%;
+    /* margin-right: 30%; */
     padding-top: 40px;
 }
 
 h3{
-    color: antiquewhite;
     font-weight: 100;
 }
 
-#container {
+/* #container {
     background-color: antiquewhite;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 #links {
-     margin-left: 5%; 
-     margin-right: 5%; 
+     /* margin-left: 5%;  */
+     /* margin-right: 5%;  */
+     /* border: 1px solid black; */
+     flex:1;
+     max-width: 15%;
+     display: flex;
+     justify-content: space-evenly;
+} 
+
+nav {
+    display:flex;
+    justify-content: center;
+    /* background-color: #EF3E36; */
+    background-color: #FFBD00;
+
 }
 
 #samplepic {
     width: 200px;
-    /* margin-left: 15%; */
+    /* display:inline; */
     margin-top: 20px;
 }
 
@@ -54,41 +66,61 @@ h3{
 }
 
 #description{
-    color:antiquewhite;
+    /* color:antiquewhite; */
     text-align: center;
 }
 
 #aboutproj {
-    color:antiquewhite;
-    /* margin-left: 100px; */
+    /* color:#F6F4F3; */
+    /* display: inline; */
+    font-size: 85%;
 }
 
 .wrapper {
-    background: #6989f3c4;
+    background: #F6F4F3;
     max-width: 85%;
     margin: 80px auto;
     height: auto;
     padding: 35px;
     padding-top: 70px;
     border-radius: 15px;
-    position: relative;    border: 2px solid #4b6bd3c4;
+    /* position: relative;     */
+    border: 2px solid #2583D0
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#youtube {
-    margin-left: 45%; 
+button {
+    background-color: grey;
 }
 
 #aboutme {
-    color: antiquewhite;
-}
-
-td {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-size: 85%;
 }
 
 
+
+@media (max-width: 768px) {
+    h1 {
+        font-weight: 100;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    td {
+        display: flex;
+    }
+    .wrapper {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-weight: 10;
+    }
+}
