@@ -6,7 +6,8 @@ body{
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
-    background: #294C60;
+    /* background: #102542; */
+    background: #595A4A;
 }
 
 h1 {
@@ -49,8 +50,7 @@ nav {
     display:flex;
     justify-content: center;
     /* background-color: #EF3E36; */
-    background-color: #8AEA92;
-
+    background-color: #48E5C2;
 }
 
 #samplepic {
@@ -77,15 +77,15 @@ nav {
 }
 
 .wrapper {
-    background: #F6F4F3;
+    background: #D7D7D5;
     max-width: 85%;
     margin: 80px auto;
     height: auto;
     padding: 35px;
     padding-top: 70px;
-    border-radius: 15px;
+    border-radius: 30px;
     /* position: relative;     */
-    border: 2px solid #2583D0
+    /* border: 2px solid #2583D0; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
