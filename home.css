@@ -7,11 +7,11 @@ body{
     margin-top: 0;
     margin-right: 0;
     /* background: #102542; */
-    background: #595A4A;
+    background: #06D6A0;
 }
 
 h1 {
-    color: antiquewhite;
+    color: #FCFCFC;
     /* font-weight: 300; */
     text-align: center;
 }
@@ -50,7 +50,7 @@ nav {
     display:flex;
     justify-content: center;
     /* background-color: #EF3E36; */
-    background-color: #48E5C2;
+    background-color: #FFD166;
 }
 
 #samplepic {
@@ -60,7 +60,7 @@ nav {
 }
 
 #quote {
-    color: antiquewhite;
+    color: #FCFCFC;
     font-weight: bold;
     text-align: center;
 }
@@ -77,7 +77,7 @@ nav {
 }
 
 .wrapper {
-    background: #D7D7D5;
+    background: #FCFCFC;
     max-width: 85%;
     margin: 80px auto;
     height: auto;
@@ -92,8 +92,19 @@ nav {
 }
 
 button {
-    background-color: grey;
-    border-radius: 10%;
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 25%;
+    border: 1px solid rgb(151, 185, 212);
+    background: #AFFDE8;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+button a {
+    color: rgb(67, 69, 73);
 }
 
 #aboutme {
